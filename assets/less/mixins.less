@@ -1,8 +1,13 @@
 // Mixins
 
 .clearfix () {
-	display:table;
-	content:"";
+	zoom:1;
+	
+	&:before,
+	&:after {
+	  display:table;
+  	content:"";
+	}
 	
 	&:after { clear:both; }
 }
