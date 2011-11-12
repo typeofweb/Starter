@@ -1,17 +1,17 @@
 var Website = {
-	
-	init: function(){
-		this.foo();
-	},
-	
-	foo: function(){
-		// your code
-	}
-	
+  
+  init: function(){
+    this.foo();
+  },
+  
+  foo: function(){
+    // your code
+  }
+  
 }
 
 $(function(){
-	
-	Website.init();
-	
+  
+  Website.init();
+  
 });
