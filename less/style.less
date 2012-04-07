@@ -1,0 +1,30 @@
+//
+//  Project's main less file. All imports go _below_ mixins.less.
+//
+
+// Include normalize.css
+@import "reset";
+
+// Load all the variables
+@import "variables";
+
+// Load all the mixins
+@import "mixins";
+
+/// Layout
+@import "layout";
+
+/// Common styles
+@import "common";
+
+/// Media queries
+@import "mediaQueries";
+
+//  Accessibility
+.accessibility {
+  position: absolute;
+  top: -999em;
+  left: -999em;
+  width: 1px;
+  height: 1px;
+}

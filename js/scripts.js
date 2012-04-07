@@ -1,6 +1,6 @@
 var Website = {
   
-  init: function(){
+  run: function(){
     this.foo();
   },
   
@@ -12,6 +12,6 @@ var Website = {
 
 $(function(){
   
-  Website.init();
+  Website.run();
   
 });
